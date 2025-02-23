@@ -1,6 +1,6 @@
 # Dolly: A Voice-Activated And Gesture-Recognizing Smart Trashcan Utilizing The YOLO Algorithm For Autonomous Navigation
 
-![Dolly Smart Trashcan](assets/dolly_smart_trashcan.jpg)
+![Dolly Smart Trashcan](dolly.png)
 
 # Overview
 
