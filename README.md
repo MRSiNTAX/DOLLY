@@ -20,3 +20,10 @@ DOLLY is a smart trashcan designed to improve waste disposal accessibility by in
 - MG995 Servo Motors - Continuous rotation servos for wheel movement.
 - HC-SR04 Ultrasonic Sensor - Measures distance to obstacles.
 - LED Module - Provides system status indications.
+
+# Software Requirements
+
+- Operating System: Raspberry Pi OS
+- Programming Languages:
+-   - Python: main program
+    - C++: Aurduino Uno program
