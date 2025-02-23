@@ -25,5 +25,59 @@ DOLLY is a smart trashcan designed to improve waste disposal accessibility by in
 
 - Operating System: Raspberry Pi OS
 - Programming Languages:
--   - Python: main program
+    - Python: main program
     - C++: Aurduino Uno program
+- Libraries & Dependencies:
+    - ultralytics (YOLOv8)
+    - pyaudio (for wake word detection)
+    - pvporcupine (Porcupine Wake Word Engine)
+    - opencv-python (for video processing)
+    - serial (for Arduino communication)
+    - RPi.GPIO (for ultrasonic sensor integration on Raspberry Pi)
+
+  # System Workflow
+
+1. Wake Word Activation: Dolly remains in standby mode, waiting for the phrase "Hey Dolly."
+2. Object Detection: Upon activation, Dolly starts scanning for a 'thumbs-up' gesture.
+3. Navigation: If a 'thumbs-up' is detected and the user is beyond 50 cm, Dolly moves forward.
+4. Stopping Mechanism: If the ultrasonic sensor does not detect thumbs-up or detects a distance below 50 cm, Dolly stops, allowing the user to dispose of trash.
+
+# Model Training
+
+- Dataset: 1,699 images collected and annotated using Roboflow.
+- Training Configuration:
+    - Framework: Ultralytics YOLOv8
+    - Learning Rate: 0.01
+    - Image Size: 640x640
+    - Epochs: 100
+
+# Model Performance
+
+- Mean Average Precision (mAP): 95%
+- Accuracy rate: 94%
+- Recall: 94%
+- Inference Time: 600-800ms per frame (on Raspberry Pi 4 Model B)
+
+#Researchers:
+- Arnold Rie J. Sejera
+- John Mark C. Ruam
+- *Gerald M. Carique
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
