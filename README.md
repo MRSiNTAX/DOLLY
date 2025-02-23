@@ -58,13 +58,15 @@ DOLLY is a smart trashcan designed to improve waste disposal accessibility by in
 - Recall: 94%
 - Inference Time: 600-800ms per frame (on Raspberry Pi 4 Model B)
 
-#Researchers:
+
+Researchers:
 - Arnold Rie J. Sejera
 - John Mark C. Ruam
 - *Gerald M. Carique
 
 
-
+# License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 
 
