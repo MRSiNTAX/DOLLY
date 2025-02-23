@@ -1,2 +1,3 @@
-# DOLLY
-Dolly is an AI-powered smart trashcan designed to improve waste disposal efficiency using real-time object detection and voice activation. The system utilizes a Raspberry Pi 4 Model B (or an alternative high-performance device), an Arduino Uno, a Raspberry Pi Camera Module V2 (or USB camera), and an ultrasonic sensor. The trashcan moves toward a user upon detecting a 'thumbs up' gesture and stops when an obstacle is detected within 50 cm.
+DOLLY: A VOICE-ACTIVATED AND GESTURE-RECOGNIZING SMART TRASHCAN UTILIZING THE YOLO ALGORITHM FOR AUTONOMOUS NAVIGATION
+Overview
+DOLLY is a smart trashcan designed to improve waste disposal accessibility by integrating voice activation and gesture recognition. The system utilizes the YOLO (You Only Look Once) algorithm for real-time object detection, enabling it to recognize a 'thumbs-up' gesture and navigate autonomously towards the user. This project aims to assist individuals with mobility impairments and enhance waste management efficiency.
