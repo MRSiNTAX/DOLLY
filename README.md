@@ -1,6 +1,6 @@
 # Dolly: A Voice-Activated And Gesture-Recognizing Smart Trashcan Utilizing The YOLO Algorithm For Autonomous Navigation
 
-![Dolly Smart Trashcan](dolly.png)                            ![Dolly Diagram](dolly_diagram.png)
+![Dolly Diagram](dolly_diagram.png)
 
 # Overview
 
@@ -61,6 +61,10 @@ DOLLY is a smart trashcan designed to improve waste disposal accessibility by in
 - Inference Time: 600-800ms per frame (on Raspberry Pi 4 Model B)
 
 
+
+![Dolly Smart Trashcan](dolly.png)
+
+
 Researchers:
 - Arnold Rie J. Sejera
 - John Mark C. Ruam
@@ -69,19 +73,3 @@ Researchers:
 
 # License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
