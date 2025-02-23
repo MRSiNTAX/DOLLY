@@ -1,5 +1,7 @@
 # Dolly: A Voice-Activated And Gesture-Recognizing Smart Trashcan Utilizing The YOLO Algorithm For Autonomous Navigation
 
+![Dolly Smart Trashcan](assets/dolly_smart_trashcan.jpg)
+
 # Overview
 
 DOLLY is a smart trashcan designed to improve waste disposal accessibility by integrating voice activation and gesture recognition. The system utilizes the YOLO (You Only Look Once) algorithm for real-time object detection, enabling it to recognize a 'thumbs-up' gesture and navigate autonomously towards the user. This project aims to assist individuals with mobility impairments and enhance waste management efficiency.
@@ -35,7 +37,7 @@ DOLLY is a smart trashcan designed to improve waste disposal accessibility by in
     - serial (for Arduino communication)
     - RPi.GPIO (for ultrasonic sensor integration on Raspberry Pi)
 
-  # System Workflow
+# System Workflow
 
 1. Wake Word Activation: Dolly remains in standby mode, waiting for the phrase "Hey Dolly."
 2. Object Detection: Upon activation, Dolly starts scanning for a 'thumbs-up' gesture.
